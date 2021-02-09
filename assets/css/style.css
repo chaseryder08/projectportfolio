@@ -583,6 +583,11 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+@media (min-width: 767px) {
+  .about .content {
+    padding-right: 4em;
+  }
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 32px;
@@ -636,6 +641,10 @@ section {
   font-size: 52px;
   text-transform: uppercase;
   line-height: 0;
+}
+
+#profile-photo > img {
+  border-radius: 10%;
 }
 /*--------------------------------------------------------------
 # Counts
